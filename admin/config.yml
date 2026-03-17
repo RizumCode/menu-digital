@@ -10,9 +10,24 @@ collections:
     label: "Menu"
     folder: "menu"
     create: true
-    slug: "{{slug}}"
+
     fields:
-      - { label: "Nama", name: "name", widget: "string" }
-      - { label: "Kategori", name: "category", widget: "select", options: ["Makanan", "Minuman", "Snack"] }
-      - { label: "Harga", name: "price", widget: "string" }
-      - { label: "Gambar", name: "image", widget: "image" }
+      - label: "Nama"
+        name: "name"
+        widget: "string"
+
+      - label: "Kategori"
+        name: "category"
+        widget: "select"
+        options:
+          - "Makanan"
+          - "Minuman"
+          - "Snack"
+
+      - label: "Harga"
+        name: "price"
+        widget: "string"
+
+      - label: "Gambar"
+        name: "image"
+        widget: "image"
